@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+}
+
+#timer-container {
+    text-align: center;
+}
+
+#countdown, #status {
+    font-size: 2em;
+    margin: 10px;
+}
+
+#time-selector, #seconds-selector, #start-stop-button {
+    font-size: 1em;
+    margin: 10px;
+    padding: 5px;
+}
+
+.warning{
+    color: red;
+}
